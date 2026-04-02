@@ -5,36 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Assets Index</title>
     <style>
-      :root {
-        color-scheme: light;
-      }
-      body {
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-        margin: 40px auto;
-        max-width: 900px;
-        padding: 0 20px 40px;
-        line-height: 1.5;
-        color: #111827;
-      }
-      h1, h2 {
-        line-height: 1.2;
-      }
-      section {
-        margin-top: 28px;
-      }
-      ul {
-        padding-left: 20px;
-      }
-      a {
-        color: #0f766e;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      .meta, .empty {
-        color: #4b5563;
-      }
+      :root { color-scheme: light; }
+      body { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; margin: 40px auto; max-width: 900px; padding: 0 20px 40px; line-height: 1.5; color: #111827; }
+      h1, h2 { line-height: 1.2; }
+      ul { padding-left: 20px; columns: 2; }
+      @media (max-width: 700px) { ul { columns: 1; } }
+      a { color: #0f766e; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .meta { color: #4b5563; }
     </style>
   </head>
   <body>
@@ -42,28 +20,73 @@
     <p class="meta">Static file listing for <code>app.ashish.me/assets</code>.</p>
     <p class="meta">Direct links to the files published from this repository.</p>
     <section>
-<h2>Root Files</h2>
-<ul>
-  <li><a href="/assets/favicon.ico">favicon.ico</a></li>
-  <li><a href="/assets/khaki-navy-polo.png">khaki-navy-polo.png</a></li>
-  <li><a href="/assets/khaki-pink-oxford.png">khaki-pink-oxford.png</a></li>
-  <li><a href="/assets/khaki-white-ocbd.png">khaki-white-ocbd.png</a></li>
-  <li><a href="/assets/logo.png">logo.png</a></li>
-  <li><a href="/assets/logo.svg">logo.svg</a></li>
-  <li><a href="/assets/logo50.png">logo50.png</a></li>
-  <li><a href="/assets/offwhite-blue-linen.png">offwhite-blue-linen.png</a></li>
-  <li><a href="/assets/offwhite-navy-tee.png">offwhite-navy-tee.png</a></li>
-  <li><a href="/assets/offwhite-olive-camp.png">offwhite-olive-camp.png</a></li>
-  <li><a href="/assets/olive-camel-sweater.png">olive-camel-sweater.png</a></li>
-  <li><a href="/assets/olive-rust-overshirt.png">olive-rust-overshirt.png</a></li>
-  <li><a href="/assets/olive-white-tee.png">olive-white-tee.png</a></li>
-  <li><a href="/assets/straight-black-camel-overcoat.png">straight-black-camel-overcoat.png</a></li>
-  <li><a href="/assets/straight-black-olive-bomber.png">straight-black-olive-bomber.png</a></li>
-  <li><a href="/assets/straight-black-white-tee.png">straight-black-white-tee.png</a></li>
-  <li><a href="/assets/straight-dark-blue-blazer.png">straight-dark-blue-blazer.png</a></li>
-  <li><a href="/assets/straight-dark-blue-rust.png">straight-dark-blue-rust.png</a></li>
-  <li><a href="/assets/straight-dark-blue-white-tee.png">straight-dark-blue-white-tee.png</a></li>
-</ul>
-</section>
+      <h2>Root Files</h2>
+      <ul>
+        <li><a href="/assets/baggy-black-flannel.png">baggy-black-flannel.png</a></li>
+        <li><a href="/assets/baggy-black-overcoat.png">baggy-black-overcoat.png</a></li>
+        <li><a href="/assets/baggy-black-oversized-tee.png">baggy-black-oversized-tee.png</a></li>
+        <li><a href="/assets/baggy-dark-blue-black-tee.png">baggy-dark-blue-black-tee.png</a></li>
+        <li><a href="/assets/baggy-dark-blue-chore.png">baggy-dark-blue-chore.png</a></li>
+        <li><a href="/assets/baggy-dark-blue-hoodie.png">baggy-dark-blue-hoodie.png</a></li>
+        <li><a href="/assets/baggy-light-blue-denim-jacket.png">baggy-light-blue-denim-jacket.png</a></li>
+        <li><a href="/assets/baggy-light-blue-skate.png">baggy-light-blue-skate.png</a></li>
+        <li><a href="/assets/baggy-light-blue-striped.png">baggy-light-blue-striped.png</a></li>
+        <li><a href="/assets/favicon.ico">favicon.ico</a></li>
+        <li><a href="/assets/khaki-blazer.png">khaki-blazer.png</a></li>
+        <li><a href="/assets/khaki-cream-cashmere.png">khaki-cream-cashmere.png</a></li>
+        <li><a href="/assets/khaki-flannel.png">khaki-flannel.png</a></li>
+        <li><a href="/assets/khaki-green-tee.png">khaki-green-tee.png</a></li>
+        <li><a href="/assets/khaki-navy-polo.png">khaki-navy-polo.png</a></li>
+        <li><a href="/assets/khaki-pink-oxford.png">khaki-pink-oxford.png</a></li>
+        <li><a href="/assets/khaki-rust-polo.png">khaki-rust-polo.png</a></li>
+        <li><a href="/assets/khaki-white-ocbd.png">khaki-white-ocbd.png</a></li>
+        <li><a href="/assets/logo.png">logo.png</a></li>
+        <li><a href="/assets/logo.svg">logo.svg</a></li>
+        <li><a href="/assets/logo50.png">logo50.png</a></li>
+        <li><a href="/assets/offwhite-blue-linen.png">offwhite-blue-linen.png</a></li>
+        <li><a href="/assets/offwhite-linen-blazer.png">offwhite-linen-blazer.png</a></li>
+        <li><a href="/assets/offwhite-navy-blazer.png">offwhite-navy-blazer.png</a></li>
+        <li><a href="/assets/offwhite-navy-tee.png">offwhite-navy-tee.png</a></li>
+        <li><a href="/assets/offwhite-olive-camp.png">offwhite-olive-camp.png</a></li>
+        <li><a href="/assets/offwhite-rose-polo.png">offwhite-rose-polo.png</a></li>
+        <li><a href="/assets/offwhite-sage.png">offwhite-sage.png</a></li>
+        <li><a href="/assets/olive-burgundy.png">olive-burgundy.png</a></li>
+        <li><a href="/assets/olive-camel-sweater.png">olive-camel-sweater.png</a></li>
+        <li><a href="/assets/olive-chore-coat.png">olive-chore-coat.png</a></li>
+        <li><a href="/assets/olive-navy-henley.png">olive-navy-henley.png</a></li>
+        <li><a href="/assets/olive-rust-overshirt.png">olive-rust-overshirt.png</a></li>
+        <li><a href="/assets/olive-tweed-coat.png">olive-tweed-coat.png</a></li>
+        <li><a href="/assets/olive-white-tee.png">olive-white-tee.png</a></li>
+        <li><a href="/assets/shorts-camp-collar.png">shorts-camp-collar.png</a></li>
+        <li><a href="/assets/shorts-fitted-tee.png">shorts-fitted-tee.png</a></li>
+        <li><a href="/assets/shorts-nautical.png">shorts-nautical.png</a></li>
+        <li><a href="/assets/shorts-pink-linen.png">shorts-pink-linen.png</a></li>
+        <li><a href="/assets/shorts-preppy.png">shorts-preppy.png</a></li>
+        <li><a href="/assets/shorts-white-polo.png">shorts-white-polo.png</a></li>
+        <li><a href="/assets/straight-black-burgundy.png">straight-black-burgundy.png</a></li>
+        <li><a href="/assets/straight-black-camel-overcoat.png">straight-black-camel-overcoat.png</a></li>
+        <li><a href="/assets/straight-black-grey-blazer.png">straight-black-grey-blazer.png</a></li>
+        <li><a href="/assets/straight-black-olive-bomber.png">straight-black-olive-bomber.png</a></li>
+        <li><a href="/assets/straight-black-tech.png">straight-black-tech.png</a></li>
+        <li><a href="/assets/straight-black-turtleneck.png">straight-black-turtleneck.png</a></li>
+        <li><a href="/assets/straight-black-white-tee.png">straight-black-white-tee.png</a></li>
+        <li><a href="/assets/straight-dark-blue-blazer.png">straight-dark-blue-blazer.png</a></li>
+        <li><a href="/assets/straight-dark-blue-burgundy.png">straight-dark-blue-burgundy.png</a></li>
+        <li><a href="/assets/straight-dark-blue-grey-sweater.png">straight-dark-blue-grey-sweater.png</a></li>
+        <li><a href="/assets/straight-dark-blue-leather.png">straight-dark-blue-leather.png</a></li>
+        <li><a href="/assets/straight-dark-blue-olive-field.png">straight-dark-blue-olive-field.png</a></li>
+        <li><a href="/assets/straight-dark-blue-overcoat.png">straight-dark-blue-overcoat.png</a></li>
+        <li><a href="/assets/straight-dark-blue-pink.png">straight-dark-blue-pink.png</a></li>
+        <li><a href="/assets/straight-dark-blue-rust.png">straight-dark-blue-rust.png</a></li>
+        <li><a href="/assets/straight-dark-blue-white-tee.png">straight-dark-blue-white-tee.png</a></li>
+        <li><a href="/assets/straight-light-blue-brown.png">straight-light-blue-brown.png</a></li>
+        <li><a href="/assets/straight-light-blue-burgundy.png">straight-light-blue-burgundy.png</a></li>
+        <li><a href="/assets/straight-light-blue-cream.png">straight-light-blue-cream.png</a></li>
+        <li><a href="/assets/straight-light-blue-denim.png">straight-light-blue-denim.png</a></li>
+        <li><a href="/assets/straight-light-blue-navy-polo.png">straight-light-blue-navy-polo.png</a></li>
+        <li><a href="/assets/straight-light-blue-olive.png">straight-light-blue-olive.png</a></li>
+        <li><a href="/assets/straight-light-blue-white-linen.png">straight-light-blue-white-linen.png</a></li>
+      </ul>
+    </section>
   </body>
 </html>
